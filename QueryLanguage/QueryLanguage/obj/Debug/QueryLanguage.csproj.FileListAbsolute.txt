@@ -1,0 +1,9 @@
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\bin\Debug\QueryLanguage.exe.config
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\obj\Debug\QueryLanguage.csprojResolveAssemblyReference.cache
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\bin\Debug\QueryLanguage.exe
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\bin\Debug\QueryLanguage.pdb
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\obj\Debug\QueryLanguage.exe
+c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLanguage\obj\Debug\QueryLanguage.pdb
+C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\bin\Debug\QueryLanguage.exe.config
+C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.exe
+C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.pdb
