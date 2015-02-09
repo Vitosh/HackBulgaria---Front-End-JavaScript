@@ -1,0 +1,6 @@
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\bin\Debug\SimpleLogger.exe.config
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\obj\Debug\SimpleLogger.csprojResolveAssemblyReference.cache
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\bin\Debug\SimpleLogger.exe
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\bin\Debug\SimpleLogger.pdb
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\obj\Debug\SimpleLogger.exe
+c:\users\gro\documents\visual studio 2012\Projects\SimpleLogger\obj\Debug\SimpleLogger.pdb
