@@ -7,3 +7,9 @@ c:\users\gro\documents\visual studio 2012\Projects\ConsoleApplication6\QueryLang
 C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\bin\Debug\QueryLanguage.exe.config
 C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.exe
 C:\Users\gro\Documents\Visual Studio 2012\Projects\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.pdb
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\bin\Debug\QueryLanguage.exe.config
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.exe
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.pdb
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\bin\Debug\QueryLanguage.exe
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\bin\Debug\QueryLanguage.pdb
+C:\Users\gro\Documents\GitHub\HackBulgaria - Front End JavaScript\HackBulgaria---Front-End-JavaScript\QueryLanguage\QueryLanguage\obj\Debug\QueryLanguage.csprojResolveAssemblyReference.cache

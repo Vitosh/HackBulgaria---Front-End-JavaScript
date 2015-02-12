@@ -19,6 +19,8 @@ class SimpleLogger
 
         log1.log(1, "Hello World");
         log1.log(2, "Hello World");
+        log1.log(3, "Hello Beautiful World");
+
 
         log2.log(2, "Hello FileLogger");
 
@@ -31,14 +33,20 @@ interface IMyLogger
     void log(int iLevel, string sMessage);
 }
 
-class ConsoleLogger : IMyLogger
+public class ConsoleLogger : IMyLogger
 {
     public void log(int iLevel, string sMessage)
+    {
+        Console.WriteLine(GenerateString(iLevel, sMessage));
+    }
+
+    public string GenerateString(int ilevel, string sMessage)
     {
         string sTime = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssK");
         string sColumns = "::";
         string sLevel = "";
-        switch (iLevel)
+
+        switch (ilevel)
         {
             case 1:
                 sLevel = "INFO";
@@ -55,9 +63,7 @@ class ConsoleLogger : IMyLogger
             default:
                 break;
         }
-
-        Console.WriteLine("{0}{1}{2}{3}{4}", sLevel, sColumns, sTime, sColumns, sMessage);
-
+        return  sLevel + sColumns + sTime + sColumns + sMessage;
     }
 }
 
@@ -65,14 +71,19 @@ class FileLogger : IMyLogger
 {
     public void log(int iLevel, string sMessage)
     {
-        File.WriteAllText(@"GivenFile.txt", sMessage);
+        ConsoleLogger Text = new ConsoleLogger();
+        string sMessageInside = Text.GenerateString(iLevel,sMessage);
+        File.WriteAllText(@"GivenFile.txt", sMessageInside);
     }
 }
 
 class HTTPLogger : IMyLogger
 {
-    public void log(int iLevel, string postData)
+    public void log(int iLevel, string sMessage)
     {
+        ConsoleLogger Text2 = new ConsoleLogger();
+        string postData = Text2.GenerateString(iLevel, sMessage);
+
         //Taken from:
         //http://stackoverflow.com/questions/1502500/how-to-use-webrequest-to-post-data-and-get-response-from-a-webpage 
 
@@ -110,6 +121,3 @@ class HTTPLogger : IMyLogger
         response.Close();
     }
 }
-
-
-
